@@ -1,0 +1,10 @@
+{
+  "C_Cpp.errorSquiggles": "enabled",
+  "editor.rulers": [
+    100,
+    {
+      "column": 120,
+      "color": "#ff000022"
+    }
+  ]
+}
