@@ -1,0 +1,6 @@
+/build/*
+!/build/.gitkeep
+
+/.vscode/launch.json
+/.vscode/settings.json
+/.vscode/tasks.json
