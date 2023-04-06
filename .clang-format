@@ -70,10 +70,16 @@ IncludeCategories:
   - Regex: '"*pch.*"'
     Priority: -1
     SortPriority: -1
-  - Regex: '"bunny/*"'
+  - Regex: '<glad/gl.h>'
     Priority: 1
-  - Regex: '"*"'
+    SortPriority: -1
+  - Regex: '<GLFW/glfw3.h>'
+    Priority: 1
+    SortPriority: 1
+  - Regex: '"bunny/*"'
     Priority: 2
+  - Regex: '"*"'
+    Priority: 3
   - Regex: '<*>'
     Priority: 4
 ...

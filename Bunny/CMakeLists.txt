@@ -1,3 +1,5 @@
 add_executable(Bunny "")
 target_include_directories(Bunny PRIVATE ${CMAKE_CURRENT_LIST_DIR}/src)
 add_subdirectory(src) 
+add_subdirectory(vendor)  
+target_link_libraries(Bunny PRIVATE glad glfw)
