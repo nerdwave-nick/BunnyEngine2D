@@ -1,7 +1,11 @@
 ---
 AccessModifierOffset: '-1'
 AlignAfterOpenBracket: Align
-AlignConsecutiveMacros: 'true'
+AlignConsecutiveMacros:
+  AcrossEmptyLines: 'true'
+  AcrossComments: 'true'
+  Enabled: 'true'
+  AlignCompound: 'false'
 AlignConsecutiveAssignments: 'true'
 AlignConsecutiveDeclarations: 'false'
 AlignEscapedNewlines: Right

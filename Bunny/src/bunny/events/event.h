@@ -1,7 +1,6 @@
 #pragma once
-#include "bupch.h"
 
-#include "Bunny/core/typedefs.h"
+#include "bunny/core/core.h"
 
 namespace Bunny {
 
