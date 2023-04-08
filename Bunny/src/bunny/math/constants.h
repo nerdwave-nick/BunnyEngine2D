@@ -1,3 +1,4 @@
+#pragma once
 #include "bunny/core/typedefs.h"
 namespace Bunny {
   namespace math {

@@ -1,3 +1,6 @@
 [submodule "Bunny/vendor/glfw"]
 	path = Bunny/vendor/glfw
 	url = https://github.com/nerdwave-nick/glfw.git
+[submodule "Bunny/vendor/fmt"]
+	path = Bunny/vendor/fmt
+	url = https://github.com/fmtlib/fmt.git

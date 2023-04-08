@@ -1,4 +1,5 @@
 #pragma once
+
 #ifdef BU_PLATFORM_WINDOWS
 
 extern Bunny::Application* Bunny::CreateApplication();

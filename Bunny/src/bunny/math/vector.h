@@ -101,7 +101,8 @@ namespace Bunny {
       friend vector<N> operator-(vector<N> const& a, vector<N> const& b) {
         return vector<N>(a) -= b;
       }
-      friend bu_f32* value_ptr(vector<N> const& vec);
+      template<bu_i32 T>
+      friend bu_f32* value_ptr(vector<T> const& vec);
 
       // mathematical operations
       bu_f32 length() const {
@@ -115,13 +116,13 @@ namespace Bunny {
       }
 
       // constructors
-      vector<N>() :
+      vector() :
           values{0} {};
-      vector<N>(bu_f32 v) :
+      vector(bu_f32 v) :
           values{v} {};
-      vector<N>(const vector<N>& other) = default;
-      vector<N>(vector<N>&& other)      = default;
-      ~vector<N>()                      = default;
+      vector(const vector<N>& other) = default;
+      vector(vector<N>&& other)      = default;
+      ~vector()                      = default;
     };
 
     template<>

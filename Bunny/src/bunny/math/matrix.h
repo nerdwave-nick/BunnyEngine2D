@@ -144,19 +144,19 @@ namespace Bunny {
         return mat::transpose(*this);
       }
 
-      matrix<M, N>() :
+      matrix() :
           columns{0} {}
 
       // TODO test
-      matrix<M, N>(const bu_f32 (&vectors)[N * M]) :
+      matrix(const bu_f32 (&vectors)[N * M]) :
           columns{} {
         for (int i = 0; i < N; i++) {
           for (int j = 0; j < M; j++) {
-            rows[j][i] = vectors[i * N + j];
+            columns[j][i] = vectors[i * N + j];
           }
         }
       }
-      explicit matrix<M, N>(bu_f32 v) :
+      explicit matrix(bu_f32 v) :
           columns{0} {
         static_assert(N == M, "Only for square matrices");
 
@@ -164,10 +164,10 @@ namespace Bunny {
           columns[i][i] = v;
         }
       }
-      matrix<M, N>(matrix<M, N> const& other) = default;
-      matrix<M, N>(matrix<M, N>&& other)      = default;
+      matrix(matrix<M, N> const& other) = default;
+      matrix(matrix<M, N>&& other)      = default;
 
-      ~matrix<M, N>() = default;
+      ~matrix() = default;
     };
 
     template<>

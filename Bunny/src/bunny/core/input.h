@@ -1,5 +1,7 @@
 #pragma once
-#include "bunny/core/typedefs.h"
+
+#include "bunny/core/types.h"
+
 namespace Bunny {
   class Input {
    public:
