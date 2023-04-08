@@ -1,4 +1,4 @@
-target_sources(Bunny PRIVATE 
+target_sources(Bunny PRIVATE
     event.h
     application-event.h
     key-event.h

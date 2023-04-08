@@ -1,7 +1,7 @@
 target_sources(Bunny PRIVATE
   input.h
   key-codes.h
-  mouse-button-codes.h
+  mouse-buttons.h
   random.cpp
   random.h
   time.cpp

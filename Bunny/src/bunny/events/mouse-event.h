@@ -55,7 +55,7 @@ namespace Bunny {
 
   class MouseButtonEvent : public Event {
    public:
-    inline bu_i32 GetMouseButton() const {
+    inline MouseButton GetMouseButton() const {
       return m_Button;
     }
     EVENT_CLASS_CATEGORY(EventCategoryMouse | EventCategoryInput)
@@ -63,7 +63,7 @@ namespace Bunny {
     MouseButtonEvent(bu_i32 button) :
         m_Button(button) {}
 
-    bu_i32 m_Button;
+    MouseButton m_Button;
   };
 
   class MouseButtonPressedEvent : public MouseButtonEvent {
@@ -73,7 +73,7 @@ namespace Bunny {
 
     bu_str ToString() const override {
       bu_sstream ss;
-      ss << "MouseButtonPressedEvent: " << m_Button;
+      ss << "[[MouseButtonPressedEvent]: " << m_Button.to_string() << "]";
       return ss.str();
     }
     EVENT_CLASS_TYPE(MouseButtonPressed)
@@ -86,7 +86,7 @@ namespace Bunny {
 
     bu_str ToString() const override {
       bu_sstream ss;
-      ss << "MouseButtonReleasedEvent: " << m_Button;
+      ss << "[[MouseButtonReleasedEvent]: " << m_Button.to_string() << "]";
       return ss.str();
     }
     EVENT_CLASS_TYPE(MouseButtonReleased)

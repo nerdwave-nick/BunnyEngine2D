@@ -77,23 +77,29 @@ $(function() {
   <div class="headertitle"><div class="title">random.cpp</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#include &quot;bupch.h&quot;</span></div>
+<a href="../../de/daa/random_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#include &quot;<a class="code" href="../../d3/df4/bupch_8h.html">bupch.h</a>&quot;</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;Random.h&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="../../d1/d79/random_8h.html">Random.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;random&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span>Bunny {</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../d1/d97/namespace_bunny.html">Bunny</a> {</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>  <span class="keyword">static</span> std::mt19937 s_RandomEngine;</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>  <span class="keyword">static</span> std::uniform_int_distribution&lt;std::mt19937::result_type&gt; s_Distribution;</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>  <span class="keywordtype">void</span> Random::Init() {</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="../../d4/d81/class_bunny_1_1_random.html#a9bcf201d55e647be67f7a3c07f13b5cd">   10</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/d81/class_bunny_1_1_random.html#a9bcf201d55e647be67f7a3c07f13b5cd">Random::Init</a>() {</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    s_RandomEngine.seed(std::random_device()());</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>  }</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>  bu_f32 Random::Float() {</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keywordflow">return</span> (bu_f32)s_Distribution(s_RandomEngine) / (bu_f32)std::numeric_limits&lt;bu_u32&gt;::max();</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="../../d4/d81/class_bunny_1_1_random.html#aec661a61004e8277255d9ad091a14bd6">   14</a></span>  <a class="code hl_typedef" href="../../d1/d97/namespace_bunny.html#a4543926f64d36394b2387bfa3cffa23a">bu_f32</a> <a class="code hl_function" href="../../d4/d81/class_bunny_1_1_random.html#aec661a61004e8277255d9ad091a14bd6">Random::Float</a>() {</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keywordflow">return</span> (<a class="code hl_typedef" href="../../d1/d97/namespace_bunny.html#a4543926f64d36394b2387bfa3cffa23a">bu_f32</a>)s_Distribution(s_RandomEngine) / (<a class="code hl_typedef" href="../../d1/d97/namespace_bunny.html#a4543926f64d36394b2387bfa3cffa23a">bu_f32</a>)std::numeric_limits&lt;bu_u32&gt;::max();</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>  }</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>}  <span class="comment">// namespace Bunny</span></div>
+<div class="ttc" id="abupch_8h_html"><div class="ttname"><a href="../../d3/df4/bupch_8h.html">bupch.h</a></div></div>
+<div class="ttc" id="aclass_bunny_1_1_random_html_a9bcf201d55e647be67f7a3c07f13b5cd"><div class="ttname"><a href="../../d4/d81/class_bunny_1_1_random.html#a9bcf201d55e647be67f7a3c07f13b5cd">Bunny::Random::Init</a></div><div class="ttdeci">static void Init()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/daa/random_8cpp_source.html#l00010">random.cpp:10</a></div></div>
+<div class="ttc" id="aclass_bunny_1_1_random_html_aec661a61004e8277255d9ad091a14bd6"><div class="ttname"><a href="../../d4/d81/class_bunny_1_1_random.html#aec661a61004e8277255d9ad091a14bd6">Bunny::Random::Float</a></div><div class="ttdeci">static bu_f32 Float()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/daa/random_8cpp_source.html#l00014">random.cpp:14</a></div></div>
+<div class="ttc" id="anamespace_bunny_html"><div class="ttname"><a href="../../d1/d97/namespace_bunny.html">Bunny</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/ded/input_8h_source.html#l00007">input.h:7</a></div></div>
+<div class="ttc" id="anamespace_bunny_html_a4543926f64d36394b2387bfa3cffa23a"><div class="ttname"><a href="../../d1/d97/namespace_bunny.html#a4543926f64d36394b2387bfa3cffa23a">Bunny::bu_f32</a></div><div class="ttdeci">float bu_f32</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d69/typedefs_8h_source.html#l00016">typedefs.h:16</a></div></div>
+<div class="ttc" id="arandom_8h_html"><div class="ttname"><a href="../../d1/d79/random_8h.html">random.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

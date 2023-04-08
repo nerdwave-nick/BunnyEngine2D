@@ -1,5 +1,25 @@
 var searchData=
 [
-  ['windowcloseevent_0',['WindowCloseEvent',['../d6/d48/class_bunny_1_1_window_close_event.html',1,'Bunny']]],
-  ['windowresizedevent_1',['WindowResizedEvent',['../de/d23/class_bunny_1_1_window_resized_event.html',1,'Bunny']]]
+  ['k_0',['K',['../d8/d36/class_bunny_1_1_key_code.html#a9b937a4bf5bd99f4ff092c620a4996f3a3d9e932ee9462d74945266a9505f0223',1,'Bunny::KeyCode']]],
+  ['key_2dcodes_2eh_1',['key-codes.h',['../d4/d9c/key-codes_8h.html',1,'']]],
+  ['key_2devent_2eh_2',['key-event.h',['../d0/dc1/key-event_8h.html',1,'']]],
+  ['key0_3',['Key0',['../d8/d36/class_bunny_1_1_key_code.html#a9b937a4bf5bd99f4ff092c620a4996f3ae07858e7ff58d656fee4e626589a4ba4',1,'Bunny::KeyCode']]],
+  ['key1_4',['Key1',['../d8/d36/class_bunny_1_1_key_code.html#a9b937a4bf5bd99f4ff092c620a4996f3a416cfc1b0e6385778726f50def8035a1',1,'Bunny::KeyCode']]],
+  ['key2_5',['Key2',['../d8/d36/class_bunny_1_1_key_code.html#a9b937a4bf5bd99f4ff092c620a4996f3a6d9d9e051d22d895b9ff45b2be0d42bc',1,'Bunny::KeyCode']]],
+  ['key3_6',['Key3',['../d8/d36/class_bunny_1_1_key_code.html#a9b937a4bf5bd99f4ff092c620a4996f3abe170d3d42d6e3f30231530948738c4f',1,'Bunny::KeyCode']]],
+  ['key4_7',['Key4',['../d8/d36/class_bunny_1_1_key_code.html#a9b937a4bf5bd99f4ff092c620a4996f3a84bbcab9ee28ae5e679fcfcb1f6df441',1,'Bunny::KeyCode']]],
+  ['key5_8',['Key5',['../d8/d36/class_bunny_1_1_key_code.html#a9b937a4bf5bd99f4ff092c620a4996f3a72292c19cfc17f318885818884e2a705',1,'Bunny::KeyCode']]],
+  ['key6_9',['Key6',['../d8/d36/class_bunny_1_1_key_code.html#a9b937a4bf5bd99f4ff092c620a4996f3a9219584df593e80cedb076610e4c1f13',1,'Bunny::KeyCode']]],
+  ['key7_10',['Key7',['../d8/d36/class_bunny_1_1_key_code.html#a9b937a4bf5bd99f4ff092c620a4996f3ae674e51cd70d2ce49f8f78e58475de44',1,'Bunny::KeyCode']]],
+  ['key8_11',['Key8',['../d8/d36/class_bunny_1_1_key_code.html#a9b937a4bf5bd99f4ff092c620a4996f3ac932fbbbc9127acf3c6aed99b761b68b',1,'Bunny::KeyCode']]],
+  ['key9_12',['Key9',['../d8/d36/class_bunny_1_1_key_code.html#a9b937a4bf5bd99f4ff092c620a4996f3add8599f73d7bb25fdab8415e1bef3cda',1,'Bunny::KeyCode']]],
+  ['key_5fcallback_13',['key_callback',['../d1/d93/something_8cpp.html#aa48aaf412b9e33386433680c25b3883c',1,'something.cpp']]],
+  ['keycode_14',['KeyCode',['../d8/d36/class_bunny_1_1_key_code.html',1,'Bunny::KeyCode'],['../d8/d36/class_bunny_1_1_key_code.html#ab791aedb60ab74b673df73a4c7ef4a1b',1,'Bunny::KeyCode::KeyCode()=default'],['../d8/d36/class_bunny_1_1_key_code.html#a4a4d87c8aa5b9cac50302dc8616d2b8b',1,'Bunny::KeyCode::KeyCode(Value aButton)'],['../d8/d36/class_bunny_1_1_key_code.html#a0671f73f18ea501ff47db33d85970801',1,'Bunny::KeyCode::KeyCode(bu_u32 aButton)']]],
+  ['keyevent_15',['KeyEvent',['../df/d41/class_bunny_1_1_key_event.html',1,'Bunny::KeyEvent'],['../df/d41/class_bunny_1_1_key_event.html#a91a0ca4d440385b780a9b03cae5e9692',1,'Bunny::KeyEvent::KeyEvent(bu_i32 keycode)'],['../df/d41/class_bunny_1_1_key_event.html#a0ea685e1dd3e9a710845d8cad667f8ab',1,'Bunny::KeyEvent::KeyEvent(KeyCode keycode)']]],
+  ['keypressed_16',['KeyPressed',['../d1/d97/namespace_bunny.html#ae80db8e9741cd8234310f13c554755e3ac17e6984c1e5a887a49831beadee6bca',1,'Bunny']]],
+  ['keypressedevent_17',['KeyPressedEvent',['../d2/de1/class_bunny_1_1_key_pressed_event.html',1,'Bunny::KeyPressedEvent'],['../d2/de1/class_bunny_1_1_key_pressed_event.html#af76427c6a657b3b509badd4daf50d06f',1,'Bunny::KeyPressedEvent::KeyPressedEvent()']]],
+  ['keyreleased_18',['KeyReleased',['../d1/d97/namespace_bunny.html#ae80db8e9741cd8234310f13c554755e3a4a77f07c8ad223b71ab4ce78a63841ab',1,'Bunny']]],
+  ['keyreleasedevent_19',['KeyReleasedEvent',['../de/da1/class_bunny_1_1_key_released_event.html',1,'Bunny::KeyReleasedEvent'],['../de/da1/class_bunny_1_1_key_released_event.html#a72228d6254727fa30ddc1255f34b71e0',1,'Bunny::KeyReleasedEvent::KeyReleasedEvent()']]],
+  ['keytyped_20',['KeyTyped',['../d1/d97/namespace_bunny.html#ae80db8e9741cd8234310f13c554755e3a9afbfd35b289eb4fc7f1bc148d7b422e',1,'Bunny']]],
+  ['keytypedevent_21',['KeyTypedEvent',['../d1/d84/class_bunny_1_1_key_typed_event.html',1,'Bunny::KeyTypedEvent'],['../d1/d84/class_bunny_1_1_key_typed_event.html#a8905d287b12372a924fb7a4a07d0411a',1,'Bunny::KeyTypedEvent::KeyTypedEvent()']]]
 ];

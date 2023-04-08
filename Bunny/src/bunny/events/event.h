@@ -1,6 +1,6 @@
 #pragma once
 
-#include "bunny/core/core.h"
+#include "bunny/core.h"
 
 namespace Bunny {
 

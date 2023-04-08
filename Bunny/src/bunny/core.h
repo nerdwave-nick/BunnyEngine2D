@@ -97,7 +97,7 @@
 // #include "bunny/core/entry-point.h"
 #include "bunny/core/input.h"
 #include "bunny/core/key-codes.h"
-#include "bunny/core/mouse-button-codes.h"
+#include "bunny/core/mouse-buttons.h"
 #include "bunny/core/random.h"
 #include "bunny/core/time.h"
 #include "bunny/core/typedefs.h"
