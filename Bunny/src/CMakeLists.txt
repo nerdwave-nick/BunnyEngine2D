@@ -1,4 +1,32 @@
-target_sources(Bunny PRIVATE ./something.cpp)
 target_precompile_headers(Bunny PRIVATE ./bupch.h)
-add_subdirectory(bunny)
-    
+target_sources(Bunny PRIVATE
+  "bunny/angle.cpp"
+  "bunny/angle.h"
+  # "bunny/application-event.h"
+  # "bunny/application.cpp"
+  # "bunny/application.h"
+  # "bunny/constants.h"
+  # "bunny/entry-point.h"
+  # "bunny/event.h"
+  # "bunny/input.h"
+  # "bunny/key-codes.h"
+  # "bunny/key-event.h"
+  # "bunny/layer-stack.cpp"
+  # "bunny/layer-stack.h"
+  # "bunny/layer.cpp"
+  # "bunny/layer.h"
+  # "bunny/lerp.h"
+  # "bunny/matrix.h"
+  # "bunny/mouse-buttons.h"
+  # "bunny/mouse-event.h"
+  # "bunny/platform-detection.h"
+  # "bunny/random.cpp"
+  # "bunny/random.h"
+  # "bunny/time.cpp"
+  # "bunny/time.h"
+  # "bunny/to-debug-string.h"
+  "bunny/typedefs.h"
+  "bunny/types.h"
+  # "bunny/vector.h"
+  # "bunny/window.h"
+)
